@@ -2,8 +2,8 @@
 
 add_action('wp_print_scripts', 'videojs_add_scripts');
 function videojs_add_scripts(){
-    wp_enqueue_script("videojs",  plugins_url('video.min.js', __FILE__ ), array(), "3.2.0", false);
-    wp_enqueue_style("videojs",  plugins_url('video-js.min.css', __FILE__ ), array(), "3.2.0");
+    wp_enqueue_script("videojs",  plugins_url('video.js', __FILE__ ), array(), "4.0.2", false);
+    wp_enqueue_style("videojs",  plugins_url('video-js.min.css', __FILE__ ), array(), "4.0.2");
 }
 
 add_action('video-js_video_render', 'videojs_render');
