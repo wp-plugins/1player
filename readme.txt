@@ -3,7 +3,7 @@ Contributors: fab1en
 Tags: video, audio, html5, player
 Requires at least: 3.0.1
 Tested up to: 3.4
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -55,6 +55,9 @@ But you can use MediaElementJS or VideoJS to provide the same skin across all br
 8. Audio player for [juliettegreco.fr](http://www.juliettegreco.fr) with dropdown playlist
 
 == Changelog ==
+
+= 1.4 =
+* [fix] Update VideoJS to version 4.0.2
 
 = 1.3 =
 * Initial published version
