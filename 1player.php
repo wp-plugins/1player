@@ -4,7 +4,7 @@
  * Author URI: http://www.1nterval.com
  * Description: Advanced HTML5 video and audio player
  * Author: Fabien Quatravaux
- * Version: 1.2
+ * Version: 1.4
 */
 
 add_action('init', 'player_init');
